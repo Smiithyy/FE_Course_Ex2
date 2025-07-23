@@ -35,7 +35,7 @@ margin-left:200px;
 
 li a:hover {
     background-color: #3882f6;
-    border-radius:8px;
+    border-radius: 10%;
 }
 
 header {
@@ -87,6 +87,10 @@ header {
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color:#2569d5;
 }
 
 .placeImg {
@@ -153,9 +157,17 @@ figcaption {
 
 .quote {
     width: 100%;
-    background-color: #1f2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 250px;
+    background-color: #e5e7eb;
     padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 36px;
+    color:#1f2937;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-top:80px;
 }
