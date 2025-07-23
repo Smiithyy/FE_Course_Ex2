@@ -166,43 +166,47 @@ figcaption {
     text-align: center;
 }
 
-.callToAction {
-    background-color: #3882f6;
-    color: #e5e7eb;
-    border-radius: 8px;
-    padding: 32px;
+.ctaContainer {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    background-color: #3882f6;
+    padding: 30px 100px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
     max-width: 900px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-h3.callToActionHeading {
-    margin: 0 0 8px;
-    font-family: 'Roboto', sans-serif;
-    color: #e5e7eb;
-    size: 18px;
-}
-
-p.callToActionText {
+.ctaText h3{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: #e5e7eb;
-    size: 16px;
+    size: 18px;
+    font-weight: bold;
 }
 
-.button {
+.ctaText p{
+    margin: 4px 0 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.ctaButton {
+    background: transparent;
     border: 2px solid #e5e7eb;
-    background-color: #3882f6;
-    font-family: 'Roboto', sans-serif;
     color: #e5e7eb;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 6px;
-    text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.ctaButton:hover{
+    background: #e5e7eb;
+    color: #3882f6;
 }
 
 p.cite {
