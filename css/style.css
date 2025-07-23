@@ -13,7 +13,7 @@ ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #1f2937;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: row; 
     margin-right: 220px;
@@ -130,7 +130,21 @@ p.textInformation {
     height: 150px;
     border: 3px solid #3882f6;
     border-radius: 10%;
-    padding:20px;
+    padding:5px;
+}
+
+.img {
+    width: 135px;
+    height: 135px;
+    border-radius: 10%;
+}
+
+figcaption {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+    size: 18px;
 }
 
 .subText {
