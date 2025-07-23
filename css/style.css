@@ -164,10 +164,22 @@ figcaption {
     text-align: center;
 }
 
-p {
+p.cite {
     font-size: 36px;
     color:#1f2937;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     margin-top:80px;
+}
+
+.containerCopy {
+    background-color: #1f2937;
+    width: 100%;
+    height: 50px;
+}
+
+p.copyright  {
+    color:#8d929a;
+    text-align: center;
+    padding: 15px;
 }
