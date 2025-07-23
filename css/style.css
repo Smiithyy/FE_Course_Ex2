@@ -2,11 +2,12 @@
     font-family: 'Roboto';
     src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
 }
- * {
+
+* {
     margin:0;
     padding:0;
     box-sizing: border-box;
- }
+}
 
 
 ul {
@@ -25,7 +26,8 @@ color: #f9faf8;
 font-size: 24px;
 margin-left:200px;
 }
- li a {
+
+li a {
     display: block;
     color: #e5e7eb;
     size: 18px;
@@ -111,6 +113,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
 }
+
 p.textInformation {
     display: flex;
     justify-content: center;
@@ -127,7 +130,6 @@ p.textInformation {
   flex-wrap: wrap; /* per farli andare su due righe su schermi piccoli */
   padding: 40px;
 }
-
 
 .box {
     width:150px;
@@ -162,6 +164,45 @@ figcaption {
     padding: 20px;
     margin-top: 50px;
     text-align: center;
+}
+
+.callToAction {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3.callToActionHeading {
+    margin: 0 0 8px;
+    font-family: 'Roboto', sans-serif;
+    color: #e5e7eb;
+    size: 18px;
+}
+
+p.callToActionText {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #e5e7eb;
+    size: 16px;
+}
+
+.button {
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    color: #e5e7eb;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 p.cite {
