@@ -360,26 +360,26 @@ button.singUp {
 /*Our Team*/
 
 body.ourTeam {
-    background-color: #1f2937;
+    background-color: #1f2937c3;
 }
 
 section.first {
     margin-top: 50px;
 }
 h1 {
-    color: #8d929a;
+    color: #e6eaef;
     font-size: 20px;
     text-align:center;
 }
 
 p.descrip {
-    color:#8d929a;
+    color:#e6eaef;
     font-size: 18px;
     padding: 20px;
     text-align: center;
 }
 
-section.cardbox {
+section.cardBox {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -395,7 +395,7 @@ figure.card {
   height: 600px;
  box-shadow: 2px solid #1f2937;
   text-align: center;
-  transition: transform 0.3s ease
+  transition: transform 0.3s ease;
 }
 
 figure.card:hover {
@@ -414,3 +414,35 @@ margin-top: 30px;
 figcaption.about {
     margin-top: 20px;
 }
+
+section.companyDesc{
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+h3.titleTeam {
+    color:#e6eaef;
+}
+
+p.titleTeam {
+    padding:20px;
+    color: #e6eaef;
+    text-align:center;
+
+}
+
+@media screen and (max-width: 767px) {
+    section.cardBox {
+        margin-top: 40px;
+    }
+   figure.card:hover {
+        transform: none;
+    }
+}
+    @media (max-width: 1024px) {
+        figure.card:hover {
+        transform: none;
+    }
+    }
+    
+    
