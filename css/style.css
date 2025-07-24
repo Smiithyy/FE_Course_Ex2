@@ -445,4 +445,30 @@ p.titleTeam {
     }
     }
     
+/*CONTACTS*/
+
+h1.titleContacts {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: bold;
+    margin-top: 40px;
     
+}
+
+hr {
+    margin-top: 30px;
+}
+
+form {
+    background-color: #1f2937;
+     width: 400px;
+     height: 300px;
+     display: flex;
+     flex-direction: row;
+     margin: 0 auto;
+    
+}
+
+label {
+    padding: 30px;
+}
