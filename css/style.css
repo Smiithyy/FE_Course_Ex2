@@ -58,7 +58,6 @@ li a:hover {
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-    font-family: 'Roboto', sans-serif;
     gap: 60px;
     height: 400px;
 }
@@ -100,7 +99,6 @@ button:hover {
 img.placeholder {
     width: 450px;
     height: 200px;
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -172,7 +170,6 @@ figcaption {
     padding: 30px 100px;
     border-radius: 8px;
     color: #e5e7eb;
-    font-family: 'Roboto', sans-serif;
     max-width: 900px;
     margin: auto;
     margin-top: 50px;
@@ -210,7 +207,6 @@ figcaption {
 p.cite {
     font-size: 36px;
     color:#1f2937;
-    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     margin-top:80px;
 }
@@ -250,7 +246,67 @@ p.copyright  {
     width: 100%;
     text-align: center;
  }
+.firstSection {
+   flex-direction: column;
+    background-color: #1f2937;
+    gap: 60px;
+    height: 800px;
+    margin-top:-100px;
+}
 
-  
+.leftContent {
+    align-items: center; 
+}
+.heroMainText {
+    font-size: 48px;
+    font-weight: 1000 ;
+    color: #f9faf8;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+.heroSecondaryText {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img.placeholder {
+    margin-top: 40px;
+}
+
+.box {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+figcaption {
+    margin-top: 10px;
+}
+
+.quote {
+    height: 200px;
+}
+p.cite {
+    margin: 0 auto;
+}
+
+.ctaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 30px 100px;
+    color: #e5e7eb;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 0%;
+}
+.ctaText {
+    text-align: center;
+}
+.ctaButton {
+    align-items: center;
+    margin-top: 10px;
+}
 }
