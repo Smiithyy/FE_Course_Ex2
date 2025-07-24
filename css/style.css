@@ -319,24 +319,24 @@ p.cite {
   header {
         flex-direction: column;
         align-items: center;
-        gap:10px;
+        
     }
 
     .heroLogo {
-        margin: 0 auto;
+     margin: 0 auto;   
     }
     nav ul{
         flex-direction: row;
         gap:10px;
         width: 100%; 
-        margin: 0 auto;
+        margin-left: 0 auto ;
         text-align: center;
     }
  
     li a {
     width: 100%;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 0 auto;
  }
 
  .leftContent {
@@ -368,16 +368,15 @@ section.first {
 }
 h1 {
     color: #8d929a;
-    font-size: 26px;
-    margin-top: 30px;
-    margin-left: 40px;
+    font-size: 20px;
+    text-align:center;
 }
 
 p.descrip {
     color:#8d929a;
     font-size: 18px;
     padding: 20px;
-    margin-left: 40px;
+    text-align: center;
 }
 
 section.cardbox {
@@ -393,11 +392,15 @@ figure.card {
   border-radius: 8px;
   overflow: hidden;
   width: 320px;
-  height: 700px;
+  height: 600px;
  box-shadow: 2px solid #1f2937;
   text-align: center;
+  transition: transform 0.3s ease
 }
 
+figure.card:hover {
+    transform: scale(1.1);
+}
 img.team {
 margin-top: 30px;
  text-align: center;
@@ -406,4 +409,8 @@ margin-top: 30px;
   display: block;
   margin: 10px auto;
   border-radius: 10px;
+}
+
+figcaption.about {
+    margin-top: 20px;
 }
