@@ -474,7 +474,6 @@ margin-top: 30px;
   margin: 10px auto;
 }
     
-/*CONTACTS*/
 
 h1.titleContacts {
     font-size: 36px;
@@ -486,18 +485,99 @@ h1.titleContacts {
 
 hr {
     margin-top: 30px;
+    transition: 2s ease;
 }
 
-form {
-    background-color: #1f2937;
-     width: 400px;
-     height: 300px;
-     display: flex;
-     flex-direction: row;
-     margin: 0 auto;
-    
-}
 
-label {
-    padding: 30px;
-}
+.contact-wrapper {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      display: flex;
+      max-width: 900px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .contact-info {
+      background-color: #f9f9f9;
+      padding: 40px;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .info-box {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+
+    .info-box svg {
+      width: 24px;
+      height: 24px;
+      fill: #3a86ff;
+      flex-shrink: 0;
+      margin-top: 4px;
+    }
+
+    .info-box p {
+      margin: 0;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .contact-form {
+      padding: 40px;
+      width: 60%;
+    }
+
+    .contact-form h2 {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    .submit-btn {
+      background-color: #3a86ff;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .submit-btn:hover {
+      background-color: #2a6cd4;
+    }
+
+
+
+
