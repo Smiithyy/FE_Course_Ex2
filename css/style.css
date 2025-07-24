@@ -2,7 +2,7 @@
     font-family: 'Roboto';
     src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
 }
-
+/*Main Page*/
 * {
     margin:0;
     padding:0;
@@ -22,6 +22,7 @@ header {
     flex-wrap: wrap;
 }
 
+
  nav ul {
     list-style-type: none;
     background-color: #1f2937;
@@ -31,10 +32,11 @@ header {
     margin-right: 230px;
 }
 
-.heroLogo {
+.heroLogo, .home {
 color: #f9faf8;
+text-decoration: none;
 font-size: 24px;
-margin-left: 200px;
+margin-left: 110px;
 }
 
 li a {
@@ -353,4 +355,51 @@ button.singUp {
    flex-direction: column;
    margin-top:20px;
 }
+}
+
+/*Our Team*/
+
+body.ourTeam {
+    background-color: #1f2937;
+}
+
+section.first {
+    margin-top: 50px;
+}
+h1 {
+    color: #8d929a;
+    font-size: 26px;
+}
+
+p.descrip {
+    color:#8d929a;
+    font-size: 18px;
+    padding: 20px;
+}
+
+section.cardbox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+figure.card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 320px;
+  height: 700px;
+ box-shadow: 2px solid #1f2937;
+  text-align: center;
+}
+
+img.team {
+margin-top: 30px;
+ text-align: center;
+  width: 300px;
+  height: 400px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
 }
