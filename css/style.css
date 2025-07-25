@@ -525,7 +525,8 @@ hr {
     gap: 15px;
 }
 
-.info-box svg {
+
+.info-box img {
     width: 24px;
     height: 24px;
     fill: #3a86ff;
