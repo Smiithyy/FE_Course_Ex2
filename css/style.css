@@ -503,17 +503,21 @@ hr {
 
 
 .contact-wrapper {
+    margin: 40px auto;
     background-color: #fff;
-    border-radius: 12px;
+    border-bottom-right-radius:  12px;
+    border-top-left-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     display: flex;
+    flex-wrap: wrap;
     max-width: 900px;
     width: 100%;
     overflow: hidden;
+    
 }
 
 .contact-info {
-    background-color: #f9f9f9;
+    background-color: #b7b6b69c;
     padding: 40px;
     width: 40%;
     display: flex;
@@ -542,7 +546,10 @@ hr {
     font-size: 15px;
     color: #333;
 }
+ .contact-wrapper .contact-form img, p  {
+    margin-top: 200px;
 
+ }
 .contact-form {
     padding: 40px;
     width: 60%;
@@ -558,7 +565,6 @@ hr {
 }
 
 .form-group label {
-    display: block;
     font-weight: bold;
     margin-bottom: 5px;
     font-size: 14px;
@@ -589,4 +595,8 @@ hr {
 
 .submit-btn:hover {
     background-color: #2a6cd4;
+}
+
+footer {
+    margin-top: -150px;
 }
