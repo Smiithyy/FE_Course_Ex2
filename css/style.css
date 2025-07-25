@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
@@ -600,3 +601,32 @@ hr {
 footer {
     margin-top: -150px;
 }
+
+@media screen and (max-width: 767px) {
+    .contact-wrapper {
+    display: flex;
+    flex-direction: column; /* Aggiunto */
+    align-items: center;
+    width: 90%;
+    }
+
+    .contact-info {
+    width: 100%;
+   
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-wrapper {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    }
+
+    .contact-info {
+    align-items: center;
+        
+    }
+
+} 
