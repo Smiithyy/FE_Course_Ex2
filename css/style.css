@@ -296,6 +296,7 @@ p.copyright  {
     .box {
         margin-left: 20px;
         margin-top: 50px;
+        
     }
 
     figcaption {
@@ -609,7 +610,7 @@ hr {
 }
 
 
-/*media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .contact-wrapper {
     display: flex;
     flex-direction: column; 
@@ -619,7 +620,6 @@ hr {
 
     .contact-info {
     width: 100%;
-   
     }
     
 }
@@ -633,7 +633,8 @@ hr {
 
     .contact-info {
     align-items: center;
+    width: 100%;
         
     }
 
-}*/
+}
