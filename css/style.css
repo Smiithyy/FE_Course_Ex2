@@ -24,6 +24,9 @@ header {
     align-items: center;
     padding: 20px 40px;
     flex-wrap: wrap;
+    position: sticky;
+    z-index:100;
+    top:0;
 }
 
  nav ul {
