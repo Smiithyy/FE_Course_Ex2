@@ -503,20 +503,20 @@ img.services {
   display: block;
   margin: 10px auto;
 }
-    
+   
+
+/*Contacts*/
+
+body.contacts {
+    background-color: #1f2937;
+}
 h1.titleContacts {
     font-size: 36px;
-    color:#1f2937;
+    color: #e5e7eb;
     font-weight: bold;
     margin-top: 40px;
     
 }
-
-hr {
-    margin-top: 30px;
-    transition: 2s ease;
-}
-
 
 .contact-wrapper {
     margin: 40px auto;
